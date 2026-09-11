@@ -32,7 +32,8 @@ class LuCIApp extends ConsumerWidget {
       localeListResolutionCallback: (locales, supported) =>
           resolveLuciLocale(locales, supported) ?? supported.first,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange, 
+        brightness: Brightness.dark),
         useMaterial3: true,
         // Edge-to-edge display handled natively in MainActivity
         appBarTheme: const AppBarTheme(
@@ -43,7 +44,7 @@ class LuCIApp extends ConsumerWidget {
       ),
       darkTheme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.blue,
+          seedColor: Colors.deepOrange,
           brightness: Brightness.dark,
         ),
         useMaterial3: true,

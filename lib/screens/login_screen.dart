@@ -290,6 +290,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen>
                             children: [
                               Column(
                                 children: [
+                                  Image.asset( 'assets/images/pecan_pie_logo.png', height: 64, ), 
                                   Text(
                                     context.l10n.appTitle,
                                     style: textTheme.headlineLarge?.copyWith(

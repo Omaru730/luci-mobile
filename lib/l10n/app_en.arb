@@ -1,7 +1,7 @@
 {
   "@@locale": "en",
-  "appTitle": "LuCI Mobile",
-  "appTagline": "OpenWrt Router Control",
+  "appTitle": "PecanPie",
+  "appTagline": "Connect to your Pecan Pie",
   "dashboard": "Dashboard",
   "clients": "Clients",
   "interfaces": "Interfaces",

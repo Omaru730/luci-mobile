@@ -71,3 +71,6 @@ flutter:
   # Include mock data files for reviewer mode
   assets:
     - assets/mock/
+    - assets/images/pecan_pie_logo.png
+
+
