@@ -1,7 +1,7 @@
 {
   "@@locale": "en",
   "appTitle": "Pecan Pie",
-  "appTagline": "OpenWrt Router Control",
+  "appTagline": "Pecan Pie Router Control",
   "dashboard": "Dashboard",
   "clients": "Clients",
   "interfaces": "Interfaces",
